@@ -1,0 +1,183 @@
+<!----------------------------------------
+-   Author:     Natalia Bubakova         -
+-   Date:       22.4.2022                -
+----------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>ITraveller</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Farsan' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav>
+        <a href="http://www.stud.fit.vutbr.cz/~xbubak01/"><img src="images/globe.png" alt="globe"></a>
+
+        <input type="checkbox" id="menu" name="menu" checked="checked">
+        <label class="lab_menu" for="menu"></label>
+        <ul class="menu">
+            <li id="menu_item_1"><a href="#about"><i class="fa-solid fa-location-dot"></i>About</a></li>
+            <li id="menu_item_2"><a href="#education"><i class="fa-solid fa-location-dot"></i><span  class="left_from_icon">Journey</span></a></li>
+            <li id="menu_item_3"><a href="#projects"><i class="fa-solid fa-location-dot"></i><span class="left_from_icon">Plan</span></a></li>
+        </ul>
+    </nav>
+    
+
+    <header>
+        <div class="header-container">
+            <div class="header-image">
+                <img src="images/girl.png" alt="girl" width="270px" title="This is me!"> 
+            </div>
+            <div class="header-title">
+                <h1>BuBu</h1>
+                <h2> The Traveller</h2>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="content">
+            <div id="about">
+                <img class="my_photo" src="images/me.png" alt="me" title="This is real me!">
+                <h2>About me..</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa tincidunt dui ut ornare. Lectus proin nibh nisl condimentum id venenatis a. Vulputate odio ut enim blandit volutpat. In hac habitasse platea dictumst quisque sagittis purus sit amet.  Risus at ultrices mi tempus imperdiet. Malesuada fames ac turpis egestas. Eleifend mi in nulla posuere sollicitudin.</p>
+                <p>Fusce vestibulum ipsum eget risus elementum lobortis. In pharetra efficitur mollis. Nulla eu sapien hendrerit, tempor sem vitae, egestas tortor. Aenean euismod pharetra tristique. Fusce nunc purus, posuere in fringilla ullamcorper, bibendum eget arcu. Sed tincidunt lectus non turpis gravida, tincidunt dapibus tortor porta.</p>
+                <p>Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Dis parturient montes nascetur ridiculus mus mauris vitae. In mollis nunc sed id semper risus. Nisl nisi scelerisque eu ultrices. Sodales neque sodales ut etiam sit amet nisl purus in. Hover over and see my face.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="content">
+            <h2>My journey..</h2>
+            <p>Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Dis parturient montes nascetur ridiculus mus mauris vitae. In mollis nunc sed id semper risus. Nisl nisi scelerisque eu ultrices. Sodales neque sodales ut etiam sit amet nisl purus in. Click on points of my journey and get know me a bit..</p>
+        
+            <div class="journey_container">
+
+                <div class="left_side">
+                    <img class="plane" src="images/plane.png" alt="journey">
+                </div>
+
+
+                <div class="right_side">
+
+                    <input type="radio" id="point_1" name="journey" checked="checked">
+				    <label class="p1" for="point_1">University</label>
+                    <div class="point_1">
+                        <img class="note" src="images/doodle.png" alt="journey">
+                        <div class="text">
+                            <h4>University</h4>
+                            <p>2020 - </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus.</p>
+                            <h4>Internship</h4>
+                            <p>2021 - </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="point_2" name="journey" checked="checked">
+				    <label class="p2" for="point_2">Experience(s)</label>
+                    <div class="point_2">
+                        <img class="note" src="images/note4.png" alt="journey">
+                        <div class="text">
+                            <h4>Experience(s)</h4>
+                            <p>2017 summer -> England</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                            <p>2018 summer -> England + Switzerland</p>
+                            <p>Proin vestibulum accumsan lacus sed volutpat. Dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>2019 summer -> Switzerland</p>
+                            <p>Consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                        
+                        </div>
+                    </div>
+
+                    <input type="radio" id="point_3" name="journey" checked="checked">
+				    <label class="p3" for="point_3">Secondary School</label>
+                    <div class="point_3">
+                        <img class="note" src="images/note1.png" alt="journey">
+                        <div class="text">
+                            <h4>Secondary School</h4>
+                            <p>2015 - 2020</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                            <p>Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. In mollis nunc sed id semper risus. Nisl nisi scelerisque eu ultrices. </p>
+                        </div>
+                    </div>
+
+                    <input type="radio" id="point_4" name="journey" checked="checked">
+				    <label class="p4" for="point_4">Primary School</label>
+                    <div class="point_4">
+                        <img class="note" src="images/note2.png" alt="journey">
+                        <div class="text">
+                            <h4>Primary School</h4>
+                            <p>2007 - 2015</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                            <h4>Primary Art School</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            
+                        </div>
+                    </div>
+
+                    <input type="radio" id="point_5" name="journey" checked="checked">
+				    <label class="p5" for="point_5">Act of being born</label>
+                    <div class="point_5">
+                        <img class="note" src="images/note3.png" alt="journey">
+                        <div class="text">
+                            <h4>Act of being born</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                            <p>Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Sodales neque sodales ut etiam sit amet nisl purus in. Purus ut faucibus pulvinar elementum.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h2>Plans..</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dis parturient montes nascetur ridiculus mus mauris vitae. In mollis nunc sed id semper risus. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+            <p>Donec ultrices tincidunt arcu non sodales neque sodales ut. Non sodales neque sodales ut etiam. Ac odio tempor orci dapibus. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Sodales neque sodales ut etiam sit amet nisl purus in. Purus ut faucibus pulvinar elementum.</p>
+            <div class="notes">
+                <div class="note" id="note_1">
+                    <!-- <img src="images/iceland.jpg" alt="."> -->
+                    <h3>Iceland</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                </div>
+                <div class="note" id="note_2">
+                    <!-- <img src="images/scandinavia.jpg" alt="."> -->
+                    <h3>Scandinavia</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                </div>
+                <div class="note" id="note_3">
+                    <!-- <img src="images/scotland.jpg" alt="."> -->
+                    <h3>Scotland</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum accumsan lacus sed volutpat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social_media">
+            <h3>Contact me:</h3>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-2xl" w></i></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
