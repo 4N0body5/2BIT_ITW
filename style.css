@@ -149,7 +149,7 @@ nav img:hover {
         display: inline-block;
     }
 
-    nav input:checked + label + .menu {/* nav img:hover + .menu { */
+    nav input:checked + label + .menu {
         
         display: inline-block;
     }
